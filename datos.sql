@@ -33,13 +33,6 @@ CREATE TABLE `datos` (
   `contra` varchar(200) NOT NULL,
   `fecha_reg` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Volcado de datos para la tabla `datos`
---
-
-INSERT INTO `datos` (`nombre`, `email`, `contra`, `fecha_reg`) VALUES
-('hola', 'hola@mail.com', '$2y$10$IIwx7GpVcQkVRf.XQVRFBeZBuCdfQSNklNaYktjeHRnwfMJBCDstC', '2024-06-19 14:44:45'),
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
